@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:contentDescription="App Logo" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="To-Do Application"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Version 1.0"
+        android:textSize="16sp"
+        android:textColor="#666666" />
+
+    <TextView
+        android:id="@+id/developer_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/version"
+        android:layout_marginTop="24dp"
+        android:text="Developer"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/developer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/developer_heading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Aqsa Mukhtar"
+        android:textSize="16sp"
+        android:textColor="#666666" />
+
+    <TextView
+        android:id="@+id/contact_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/developer_name"
+        android:layout_marginTop="24dp"
+        android:text="Contact"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/contact_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_heading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Email: aqsa@gmail.com"
+        android:textSize="16sp"
+        android:textColor="#666666" />
+
+    <TextView
+        android:id="@+id/contact_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Phone: +1234567890"
+        android:textSize="16sp"
+        android:textColor="#666666" />
+
+</RelativeLayout>

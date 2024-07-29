@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/help_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/usage_instructions_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to Use"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/usage_instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Add a new task by clicking on the '+' button.\n2. Edit or delete tasks by long-pressing on the task.\n3. Mark tasks as completed by clicking on the checkbox."
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tips_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tips"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Use categories to organize your tasks better.\n• Set reminders for important tasks.\n• Regularly review and update your tasks."
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/troubleshooting_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Troubleshooting"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/troubleshooting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• If the app crashes, try restarting it.\n• If tasks do not save, check your internet connection.\n• For any other issues, contact support."
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+</ScrollView>
